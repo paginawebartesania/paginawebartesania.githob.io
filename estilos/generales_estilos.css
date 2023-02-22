@@ -1,0 +1,100 @@
+@import url(fontello.css);
+/*----------Estilos generales-------------*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: "georgia","arial";
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+ul{
+    list-style: none;
+}
+img{
+	width: 100%;
+    display: block;
+}
+.select{
+	background: #CD5C5C;
+}
+.main{
+	background: #fff;
+    font-style: italic;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.main section{
+	margin-top: 20px;
+}
+
+/*--------------Estilos del header-----------*/
+header{
+	background:#3CA4C7;
+	color: #fff;
+	font-style: italic;
+	padding: 8px 15px;
+}
+.header_titulo{
+	font-size: 1.70em;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    text-shadow: 5px 5px 10px #000;
+}
+.header_txt{
+	font-size: 0.95em;
+	letter-spacing: 1px;
+}
+
+/*-----------Estilos del menu---------------*/
+nav{
+	background: #000;
+}
+.menu{
+	display: flex;
+}
+.menu li{
+	flex:auto;
+}
+.menu a{
+	color: #fff;
+	font-size: 0.95em;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px;
+}
+.menu a:hover{
+	background: rgba(255,255,255, 0.3);
+	box-shadow: 0px -3px #50C0FF inset;
+}
+.menu a span{
+	font-size: 1em;
+	margin-left: 5px;
+}
+
+/*-------------Estilos del footer---------------*/
+footer{
+	background: #CD5C5C;
+	padding: 8px 0px;
+}
+footer p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 	0.95em;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+/*-------------Estilos del contenedor-------------*/
+@media(min-width:1024px){
+	.contenedor{
+		width: 85%;
+		margin: 0px auto;
+	}
+	
+}
+
+

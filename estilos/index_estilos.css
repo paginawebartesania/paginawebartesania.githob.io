@@ -1,0 +1,141 @@
+/*------------Estilos de la seccion bienvenidos---------*/
+.main{
+	padding: 0 20px 20px 20px;
+}
+.bienvenidos{
+	width: 100%;
+}
+
+/*-------------Estilos de los titulos y texto-----------*/
+.seccion_titulo{
+	text-align: center;
+	color: #fff;
+	font-size: 1.25em;
+	margin-bottom: 10px;
+	background: #CD5C5C;
+	padding: 3px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 5px #000;
+	letter-spacing: 1px;
+}
+.seccion_txt{
+	font-size: 1.05em;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+/*--------------Estilos de la seccion servicios----------*/
+.servicios{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.servicio_titulo{
+	text-align: center;
+	font-size: 1.1em;
+	color: #CD5C5C;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.item_servicios{
+	width: 23%;
+}
+.item_servicios img{
+	height: 100%;
+	box-shadow: 3px 3px 7px #CD5C5C;
+    border-radius: 20px;
+    max-height: 160px;
+}
+
+/*-----------------Estilos de la seccion informacion--------------*/
+.informacion{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.info_item{
+	width: 32%;
+}
+.informacion p{
+	margin-bottom: 8px;
+	border-radius: 10px;
+	padding: 0 5px;
+	text-align: justify;
+}
+
+/*------------Estilos de la seccion eventos----------*/
+.eventos{
+	width: 58%;
+}
+.eventos_tipos{
+	display: flex;
+	margin-top: 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 8px #CD5C5C;
+	background: #BAE2FF;
+}
+.menu_eventos{
+	width: 64%;
+}
+.menu_eventos li{
+    color: #CD5C5C;
+    text-align: center;
+   	letter-spacing: 1px;
+   	margin-top: 3px;
+}
+.img_menu{
+	width: 36%;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.img_menu img{
+	height: 100%;
+	max-height: 260px;
+}
+
+/*-----------Estilos de la seccion contactos--------*/
+.contactos{
+	width: 40%;
+}
+#frm_contacto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 10px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px #CD5C5C;
+	padding: 0 13px 10px 13px;
+
+}
+.frm_item{
+	margin-top: 7px;
+	width: 46%;
+}
+.frm_item label{
+	display: block;
+	text-align: left;
+	font-weight: bold;
+	color: #CD5C5C;
+	margin-bottom: 3px;
+}
+.cajatxt{
+	display: block;
+	width: 100%;
+	padding: 3px;
+	border-radius: 5px;
+	border:1.5px solid ##CD5C5C;
+	font-size: 0.93em;
+}
+#btn_enviar{
+	width: 120px; 
+	padding: 8px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	font-weight: bold;
+	cursor: pointer;
+}
+

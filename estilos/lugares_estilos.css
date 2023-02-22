@@ -1,0 +1,18 @@
+.main{
+	padding: 20px;
+}
+.main img{
+	border-radius: 15px;
+	border: 3.5px solid #CD5C5C;
+	box-shadow: 0 0 8px #000;
+	max-height: 200px;
+}
+
+table td{
+	padding: 30px;
+}
+.main h1{
+	color:#CD5C5C;
+	text-align: center;
+	width: 100%;
+}

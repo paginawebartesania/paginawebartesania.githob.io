@@ -1,0 +1,72 @@
+.main{
+	padding: 0 30px 10px 30px;
+} 
+.main img{
+	border-radius: 15px;
+	border: 3.5px solid #50C0FF;
+	box-shadow: 0 0 8px #000;
+	max-height: 180px;
+}
+/*------------Seccion Quienes Somos---------*/
+.conocenos{
+}
+.conocenos img{
+	max-width: 600px;
+	max-height: 300px;
+	margin: 0 auto;
+}
+.info_titulo{
+	color: #68b12f;
+	text-align: center;
+	font-size: 1.70em;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+.info_txt{
+	letter-spacing: 1px;
+	text-align: justify;
+	font-size: 1.05em;
+	margin-top: 10px;
+	line-height: 1.5;
+}
+.tipo_mango{
+	width: 50%;
+	list-style:square;
+	color: #3CA4C7;
+	float: left;
+	margin-left: 80px;
+}
+.tipo_mango li{
+	margin-top: 5px;
+}
+.item_mango{
+	width: 28%;
+	float: left;
+	margin-top: 20px;
+}
+/*------------------------Seccion mango---------------*/
+.info_mango{
+	display: flex;
+	justify-content: space-between;
+}
+
+.info_mango .info_txt{
+	width: 100%;
+	margin-top: 0;
+}
+/*----------------------Seccion recorridos---------------*/
+.recorridos_item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.recorridos_item .info_txt{
+	width: 70%;
+	margin-top: 0;
+}
+.item_img{
+	width: 27%;
+}

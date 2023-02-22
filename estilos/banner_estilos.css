@@ -1,0 +1,89 @@
+/*---------------Estilos del Banner-------------*/
+.banner{
+    background: #68b12f;
+    overflow: hidden;
+    font-style: italic;
+    position: relative;
+}
+.slider img{
+    max-height: 380px;
+    height: 100%;
+}
+.banner_txt{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+/*--------------Estilos del Slider------------*/
+.primero{
+    position: relative;
+}
+.slider{
+    width: 400%;
+    display: flex;
+    animation: mover 15s infinite alternate;
+    animation-timing-function: ease-in-out;
+}
+.slider_img{
+    width: 100%;
+}
+
+/*--------------Animacion del Slider-----------*/
+@keyframes mover{
+    0%,17.5%{ margin-left: 0px; }
+    27.5%,45%{ margin-left: -100%; }
+    55%,72.5%{ margin-left: -200%; }
+    82.5%,100%{ margin-left: -300%; }
+}
+
+/*-----------------Estilos de la seccion redes sociales---------------*/
+.sociales{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(-100%) translateY(-50%);
+    width: 280px;
+}
+.sociales a{
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.5s;
+    background: rgba(0,0,0,0.6);
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    left: 234px;
+}
+.sociales span{
+    font-size: 1.65em;
+    padding: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.sociales a:hover{
+    left: 0;
+    text-align: left; 
+}
+
+/*-------------Estilos de los iconos sociales--------------*/
+
+.sociales .icon-facebook-squared{
+    background-color: blue; 
+}
+.sociales .icon-phone{
+    background-color: darkgreen;  
+}
+.sociales .icon-mail-alt{
+    background-color: darkred; 
+}
+.sociales .icon-gplus{
+    background-color: red;
+}
